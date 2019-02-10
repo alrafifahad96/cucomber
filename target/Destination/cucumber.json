@@ -1,0 +1,57 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Checking the Register link on Home page",
+        "description": "",
+        "id": "testing-register-link-functionlaity-in-flight-page;checking-the-register-link-on-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 471028683,
+              "error_message": "java.lang.NullPointerException\n\tat step_definitions.HomeSteps.openFlightApplication(HomeSteps.java:31)\n\tat ✽.Given I Open Mercury Flight Application(src/test/resources/features/FlighRegistration.feature:3)\n",
+              "status": "failed"
+            },
+            "line": 3,
+            "name": "I Open Mercury Flight Application",
+            "match": {
+              "location": "HomeSteps.openFlightApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Click on the Register link in the Home page",
+            "match": {
+              "location": "HomeSteps.navigatetoregisterpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Register page should displayed",
+            "match": {
+              "location": "HomeSteps.registerpagedisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing Register link functionlaity in Flight page",
+    "description": "",
+    "id": "testing-register-link-functionlaity-in-flight-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/FlighRegistration.feature"
+  }
+]
